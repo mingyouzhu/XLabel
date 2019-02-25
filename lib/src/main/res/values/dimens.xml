@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_media_small">14.0sp</dimen>
+    <dimen name="view_space">12.0dip</dimen>
+
+</resources>

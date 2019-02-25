@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagLayout">
+        <attr name="lineSpacing" format="dimension"/>
+        <attr name="tagSpacing" format="dimension"/>
+        <attr name="tl_xx" format="integer"/>
+        <attr name="tl_xxx" format="boolean"/>
+    </declare-styleable>
+</resources>
