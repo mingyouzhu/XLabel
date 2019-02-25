@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 ```
 
 activity_main.xml
-`
+```
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -71,4 +71,4 @@ activity_main.xml
             android:layout_marginEnd="8dp"/>
 
 </android.support.constraint.ConstraintLayout>
-`
+```
