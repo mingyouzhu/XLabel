@@ -1,7 +1,7 @@
 # XLabel
 
 ###引入
-``
+```
 dependencies {
 	        implementation 'com.github.mingyouzhu:XLabel:v1.1'
 }
