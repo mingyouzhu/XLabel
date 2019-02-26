@@ -12,6 +12,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        button.setOnClickListener {
+            xlabel_demo.clear()
+        }
+
+        button2.setOnClickListener {
+            init()
+        }
+    }
+
+    fun init(){
         val array = arrayOf(
             XLabelBean(1,"三至松鼠"),
             XLabelBean(2,"女士透明小内裤"),

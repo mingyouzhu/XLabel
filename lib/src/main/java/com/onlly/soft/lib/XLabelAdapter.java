@@ -37,6 +37,13 @@ public class XLabelAdapter extends BaseAdapter {
         notifyDataSetChanged();
     }
 
+    public void clear(){
+        if(this.f16957b != null && this.f16957b.size() > 0){
+            this.f16957b.clear();
+            notifyDataSetChanged();
+        }
+    }
+
     public int getCount() {
         return this.f16957b.size();
     }

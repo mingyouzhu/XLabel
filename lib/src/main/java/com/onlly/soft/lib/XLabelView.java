@@ -221,8 +221,16 @@ public class XLabelView extends ViewGroup{
         setAdapter(new XLabelAdapter(context,collection));
     }
 
+    public void clear(){
+        if(this.f16968c != null){
+            XLabelAdapter adapter = (XLabelAdapter)this.f16968c;
+            adapter.clear();
+            removeAllViews();
+        }
+    }
+
     public void setAdapter(BaseAdapter baseAdapter) {
-        if (this.f16968c == null) {
+       /* if (this.f16968c == null) {
             this.f16968c = baseAdapter;
             if (this.f16970e == null) {
                 this.f16970e = new XLabelView.C4217a();
@@ -230,6 +238,13 @@ public class XLabelView extends ViewGroup{
             }
             m21975a();
         }
+*/
+        this.f16968c = baseAdapter;
+        if (this.f16970e == null) {
+            this.f16970e = new XLabelView.C4217a();
+            this.f16968c.registerDataSetObserver(this.f16970e);
+        }
+        m21975a();
     }
 
     public void setItemClickListener(XLabelView.IOnItemClickListener IOnItemClickListener) {
